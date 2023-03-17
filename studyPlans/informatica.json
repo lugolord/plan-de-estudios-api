@@ -1,0 +1,78 @@
+{
+  "careerName": "informatica",
+  "semesters": [
+    {
+      "semester": "cbc",
+      "matters": [
+        {
+          "name": "Análisis Matemático A",
+          "code": "66",
+          "correlatives": [] 
+        },
+        {
+          "name": "Álgebra A",
+          "code": "62",
+          "correlatives": [] 
+        },
+        {
+          "name": "Física",
+          "code": "03",
+          "correlatives": [] 
+        },
+        {
+          "name": "Química",
+          "code": "05",
+          "correlatives": [] 
+        },
+        {
+          "name": "Introducción al Conocimiento de la Sociedad y el Estado",
+          "code": "24",
+          "correlatives": [] 
+        },
+        {
+          "name": " Introducción al Pensamiento Científico",
+          "code": "40",
+          "correlatives": [] 
+        }
+      ]
+    },
+    {
+      "matters": [
+        {
+          "name": "Análisis Matemático II A",
+          "code": "61.03",
+          "correlatives": ["cbc"] 
+        },
+        {
+          "name": "Física I A",
+          "code": "62.01",
+          "correlatives": ["cbc"] 
+        },
+        {
+          "name": "Algoritmos y Programación I",
+          "code": "75.40",
+          "correlatives": ["cbc"] 
+        }
+      ]
+    },
+    {
+      "matters": [
+        {
+          "name": "Álgebra II A",
+          "code": "61.08",
+          "correlatives": ["cbc"] 
+        },
+        {
+          "name": "Física II A",
+          "code": "62.03",
+          "correlatives": ["61.03", "62.01"]
+        },
+        {
+          "name": "Algoritmos y Programación II",
+          "code": "75.41",
+          "correlatives": ["75.40"]
+        }
+      ]
+    }
+  ]
+}
